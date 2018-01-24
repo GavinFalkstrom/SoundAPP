@@ -19,10 +19,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#b03ab0"
-        android:text="HI"
+        android:text="hi"
         android:textSize="100sp"
         />
 
-  
+    <button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
 </RelativeLayout>
