@@ -8,24 +8,42 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/skyrim"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/skyrim" />
 
 
     <TextView
+        android:id="@id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#b03ab0"
-        android:text="hi"
-        android:textSize="100sp"
+        android:text="HELLO THERE!!!!!!!!!"
+        android:textSize="70sp"
         />
 
-    <button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="121dp"
+        android:text="HI how are you"
+        android:onClick="sound"
         />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="121dp"
+        android:text="Activity 2"
+        android:onClick="activity2" />
+
+
 
 </RelativeLayout>

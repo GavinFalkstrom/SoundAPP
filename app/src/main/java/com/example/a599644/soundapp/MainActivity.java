@@ -9,10 +9,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);}
 
 
-    MediaPlayer hi = MediaPlayer.create(getApplicationContext(), R.raw.hi);
-    hi.start();
-}
+    public void sound (view view) {
+        MediaPlayer hi = MediaPlayer.create(getApplicationContext(), R.raw.hi);
+        hi.start();
+    }
+
+    public void activity2(View view) {
+        Intent Activity_main2 = new Intent(this, Activity_main2.class);
+        startActivity(Activity_main2);
+    }
 }
